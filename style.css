@@ -31,13 +31,18 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    width: 100%;
     font-family: 'Anurati', sans-serif;
     font-size: 2rem;;
     color: #F50CCA;
+    background-color: #040340;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*border: 4px solid ;*/
+    overflow: hidden;
 }
 
 .container {
@@ -109,11 +114,24 @@ h2 {
 
 #c0E0CF5 {
     background-color: #0E0CF5;
-    margin-bottom: 5rem;
     transition: .25s ease-in-out;
 }
 
 #c0E0CF5 :hover {
     box-shadow: 0 0 45px 15px #0E0CF5;
     transition: .25s ease-in-out;
+}
+
+/*#c040340 {
+    border: 2px solid #F50CCA;
+}*/
+
+#c040340 p {
+    font-family: 'VCR';
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+#c040340 h2 {
+    margin-top: .25rem;
 }
