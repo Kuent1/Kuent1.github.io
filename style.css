@@ -45,6 +45,20 @@ header {
     overflow: hidden;
 }
 
+h2 {
+    font-family: 'VCR' , sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+p {
+    font-family: 'VCR', sans-serif;
+}
 .container {
     display: block;
     position: absolute;
@@ -59,17 +73,6 @@ header {
     margin: auto;
     border-radius: .5rem;
     color: #fff;
-}
-
-h2 {
-    font-family: 'VCR' , sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 #FF00D2 {
@@ -123,7 +126,7 @@ h2 {
 }
 
 #c040340 p {
-    font-family: 'VCR'; !important
+    font-family: 'VCR';
     font-size: 1.25rem;
     margin-bottom: .5rem;
 }
