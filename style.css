@@ -122,12 +122,8 @@ h2 {
     transition: .25s ease-in-out;
 }
 
-/*#c040340 {
-    border: 2px solid #F50CCA;
-}*/
-
 #c040340 p {
-    font-family: 'VCR';
+    font-family: 'VCR'; !important
     font-size: 1.25rem;
     margin-bottom: .5rem;
 }
