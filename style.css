@@ -42,7 +42,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 1;
     overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 440px){
+    header {
+        font-size: 1.5rem;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
 }
 
 h2 {
