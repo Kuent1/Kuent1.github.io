@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Streamster';
+    src: url(./src/font/Streamster.ttf);
+}
+@font-face {
+    font-family: 'VCR';
+    src: url(./src/font/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+    font-family: 'Anurati';
+    src: url(./src/font/Anurati-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Munake';
+    src: url(./src/font/Munake-vm0rE.otf);
+}
+
+@font-face {
+    font-family: 'Robotron';
+    src: url(./src/font/robotron/Robotron-0Wvvo.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 5rem;
+    background-color: #040340;
+}
+
+header {
+    font-family: 'Anurati', sans-serif;
+    font-size: 2rem;;
+    color: #F50CCA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 4px solid ;*/
+}
+
+.container {
+    display: block;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.color {
+    width: 75%;
+    height: 5rem;
+    margin: auto;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'VCR' , sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#FF00D2 {
+    background-color: #FF00D2;
+    transition: .25s ease-in-out;
+}
+
+#FF00D2 :hover {
+    box-shadow: 0 0 45px 15px #FF00D2;
+    transition: .25s ease-in-out;
+}
+
+#F58800 {
+    background-color: #F58800;
+    transition: .25s ease-in-out;
+}
+
+#F58800 :hover {
+    box-shadow: 0 0 45px 15px #F58800;
+    transition: .25s ease-in-out;
+}
+
+#c2BFCF3 {
+    background-color: #2BFCF3;
+    transition: .25s ease-in-out;
+}
+
+#c2BFCF3 :hover {
+    box-shadow: 0 0 45px 15px #2BFCF3;
+    transition: .25s ease-in-out;
+}
+
+#c8800F5 {
+    background-color: #8800F5 ;
+    transition: .25s ease-in-out;
+}
+
+#c8800F5 :hover {
+    box-shadow: 0 0 45px 15px #8800F5;
+    transition: .25s ease-in-out;
+}
+
+#c0E0CF5 {
+    background-color: #0E0CF5;
+    margin-bottom: 5rem;
+    transition: .25s ease-in-out;
+}
+
+#c0E0CF5 :hover {
+    box-shadow: 0 0 45px 15px #0E0CF5;
+    transition: .25s ease-in-out;
+}
