@@ -22,12 +22,27 @@
     src: url(./src/font/robotron/Robotron-0Wvvo.ttf);
 }
 
+:root {
+    --ff-streamster: "Streamster", sans-serif;
+    --ff-vcr: "VCR", sans-serif;
+    --ff-anurati: "Anurati", sans-serif;
+    --ff-munake: "Munake", sans-serif;
+    --ff-robotron: "Robotron", sans-serif;
+
+    --clr-bg: #040340;
+    --clr-primary-pink: #F50CCA;
+    --clr-secondary-orange: #F58800;
+    --clr-secondary-turquoise: #2BFCF3;
+    --clr-secondary-violet: #8800F5;
+    --clr-secondary-blue: #0E0CF5;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-bottom: 5rem;
-    background-color: #040340;
+    background-color: var(--clr-bg);
 }
 
 header {
@@ -37,7 +52,7 @@ header {
     width: 100%;
     font-family: 'Anurati', sans-serif;
     font-size: 2rem;;
-    color: #F50CCA;
+    color: var(--clr-primary-pink);
     background-color: #040340;
     display: flex;
     align-items: center;
