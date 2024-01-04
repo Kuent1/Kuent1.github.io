@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuentin | DevOps & Front-End Developer</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/form.min.css">
+    <link rel="shortcut icon" href="src/img/favicon.jpg">
+    <script src="src/scripts/menu.js" defer></script>
+</head>
+<body>
+    <header class="primary-header">
+        <h2><a href="index.html">Kuentin</a></h2>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"></button>
+        <nav>
+            <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+                <li><a class="nav-item"  href="about.html">Qui suis-je</a></li>
+                <li><a class="nav-item" href="websites.html">Sites Web</a></li>
+                <li><a class="nav-item" data-active="true" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <div class="container">
+                <div class="card-flex column">
+                    <div class="text-container">
+                        <h3>On reste en contact ?<span class="blink">_</span></h3>
+                        <p>N'hésitez pas, je ne mors pas !</p>
+                    </div>
+                    <div class="form-container">
+                        <form action="https://fabform.io/f/FCpNVsQ" name="contact" method="POST">
+                            <div class="input-bar">
+                                <input name="name" type="text" placeholder="NOM" required>
+                                <input name="email" type="text" placeholder="E-MAIL" required>
+                            </div>
+                            <textarea name="message" placeholder="MESSAGE" required></textarea>
+                            <input id="submit" name="submit" type="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="text-container">
+                            <a href="https://github.com/Kuent1" target="_blank"><img class="invert" src="src/img/svg/Github.svg" alt="Github"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+---
+name: Deploy to Github Pages
+
+on: [push]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install sass
+        run: npm install -g sass
+
+      - name: Build SCSS files to CSS
+        run:  sass --style=compressed --no-source-map dev/style/style.scss _site/src/style/style.css
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy page
+        id: deployment
+        uses: actions/deploy-pages@v4
